@@ -129,7 +129,7 @@
             {"tid": 201, "cid": 7, "did": 15, "school": "Texas A&M-CC", "name": "Islanders", "abbrev": "TAMUCC", "pop": 119, "city": "Corpus Christi", "state": "TX", "latitude": 27.742 , "longitude": -97.401},
             {"tid": 171, "cid": 7, "did": 15, "school": "Incarnate Word", "name": "Cardinals", "abbrev": "UIW", "pop": 149, "city": "San Antonio", "state": "TX", "latitude": 29.416 , "longitude": -98.500},
             {"tid": 7, "cid": 8, "did": 16, "school": "Gonzaga", "name": "Bulldogs", "abbrev": "GONZ", "pop": 313, "city": "Spokane", "state": "WA", "latitude": 47.658, "longitude": -117.425},
-            {"tid": 42, "cid": 8, "did": 16, "school": "Brigham Young", "name": "Cougars", "abbrev": "BYU", "pop": 278, "city": "Provo", "state": "UT", "latitude": 40.244, "longitude": -111.660},
+            {"tid": 42, "cid": 8, "did": 16, "school": "Brigham Young University", "name": "Cougars", "abbrev": "BYU", "pop": 278, "city": "Provo", "state": "UT", "latitude": 40.244, "longitude": -111.660},
             {"tid": 75, "cid": 8, "did": 16, "school": "Saint Mary's", "name": "Gaels", "abbrev": "STMARY", "pop": 245, "city": "Moraga", "state": "CA", "latitude": 37.835, "longitude": -122.129},
             {"tid": 148, "cid": 8, "did": 16, "school": "Pepperdine", "name": "Waves", "abbrev": "PEPP", "pop": 172, "city": "Malibu", "state": "CA", "latitude": 34.030, "longitude": -118.750},
             {"tid": 162, "cid": 8, "did": 16, "school": "San Diego", "name": "Toreros", "abbrev": "USD", "pop": 158, "city": "San Diego", "state": "CA", "latitude": 32.715, "longitude": -111.162},

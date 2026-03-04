@@ -1,42 +1,105 @@
 #root {
-  max-width: 1280px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.heading-section {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.heading-section h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.heading-section p {
+  margin: 0;
+  color: #4b5563;
+}
+
+.content-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 320px) 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.team-menu {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 1rem;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.team-menu h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.team-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.team-menu button {
+  width: 100%;
+  text-align: left;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #f9fafb;
+  color: #111827;
+  padding: 0.45rem 0.6rem;
+}
+
+.team-menu button.selected {
+  background: #dbeafe;
+  border-color: #60a5fa;
+  font-weight: 600;
+}
+
+.team-card {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 1.25rem;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  min-height: 220px;
+}
+
+.team-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.7rem;
+}
+
+.team-card p {
+  margin: 0.45rem 0;
+  font-size: 1.1rem;
+}
+
+.team-card span {
+  font-weight: 600;
+}
+
+@media (max-width: 850px) {
+  .content-layout {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
+
+  .team-menu {
+    max-height: 320px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

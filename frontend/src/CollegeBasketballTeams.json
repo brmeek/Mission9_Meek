@@ -31,7 +31,7 @@
             {"tid": 129, "cid": 1, "did": 3, "school": "Northwestern", "name": "Wildcats", "abbrev": "NW", "pop": 191, "city": "Evanston", "state": "IL", "latitude": 42.046, "longitude": -87.694},
             {"tid": 61, "cid": 1, "did": 3, "school": "Purdue", "name": "Boilermakers", "abbrev": "PUR", "pop": 259, "city": "West Lafayette", "state": "IN", "latitude": 40.441, "longitude": -86.912},
             {"tid": 1, "cid": 1, "did": 3, "school": "Wisconsin", "name": "Badgers", "abbrev": "WISC", "pop": 319, "city": "Madison", "state": "WI", "latitude": 43.066, "longitude": -89.4},
-	    {"tid": 256, "cid": 1, "did": 3, "school": "IUPUI", "name": "Jaguars", "abbrev": "IUPUI", "pop": 64, "city": "Indianapolis", "state": "IN", "latitude": 39.774, "longitude": -86.176},
+	        {"tid": 256, "cid": 1, "did": 3, "school": "IUPUI", "name": "Jaguars", "abbrev": "IUPUI", "pop": 64, "city": "Indianapolis", "state": "IN", "latitude": 39.774, "longitude": -86.176},
             {"tid": 68, "cid": 2, "did": 4, "school": "Florida", "name": "Gators", "abbrev": "FLA", "pop": 252, "city": "Gainesville", "state": "FL", "latitude": 29.652 , "longitude": -82.325},
             {"tid": 43, "cid": 2, "did": 4, "school": "Georgia", "name": "Bulldogs", "abbrev": "UGA", "pop": 277, "city": "Athens", "state": "GA", "latitude": 33.95, "longitude": -83.383},
             {"tid": 2, "cid": 2, "did": 4, "school": "Kentucky", "name": "Wildcats", "abbrev": "UK", "pop": 318, "city": "Lexington", "state": "KY", "latitude": 38.029, "longitude": -84.494},
